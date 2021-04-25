@@ -203,7 +203,7 @@ loop = True
 
 while loop:  ## While loop which will keep going until loop = False
     print_menu()  ## Displays menu
-    choice = input("Enter your choice [1-5]:")
+    choice = input("Enter your choice [1-4]:")
 
     if choice == "1":
         print("Menu 1 has been selected")
